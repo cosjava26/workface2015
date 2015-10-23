@@ -177,6 +177,10 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
     color: #fed136;
+    padding: 0;
+}
+.navbar-default .navbar-brand img.workface-logo{
+    width: 60%;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -256,8 +260,8 @@ fieldset[disabled] .btn-xl.active {
         background-color: #222;
     }
 
-    .navbar-default.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
+    .navbar-default.navbar-shrink .navbar-brand img.workface-logo{
+        width: 50%;
     }
 }
 
@@ -265,7 +269,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
+    background-image: url("http://i.imgur.com/K4QLZbu.png");
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -298,8 +302,8 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px;
+        padding-top: 185px;
+        padding-bottom: 185px;
     }
 
     header .intro-text .intro-lead-in {
