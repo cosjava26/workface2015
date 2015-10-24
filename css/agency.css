@@ -119,14 +119,14 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #fed136;
+    border-color: #eb9631;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #fed136;
+    background-color: #eb9631;
 }
 
 .btn-xl:hover,
@@ -134,9 +134,9 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #f6bf01;
+    border-color: #DA8826;
     color: #fff;
-    background-color: #fec503;
+    background-color: #DA8826;
 }
 
 .btn-xl:active,
@@ -331,6 +331,12 @@ section h2.section-heading {
     margin-bottom: 15px;
     font-size: 40px;
 }
+section h2.section-heading img.share-logo{
+    width: 70px;
+}
+section h2.section-heading img.workshop-logo{
+    width: 120px;
+}
 
 section h3.section-subheading {
     margin-bottom: 75px;
@@ -491,7 +497,7 @@ section h3.section-subheading {
     width: 80px;
     height: 80px;
     margin-left: 0;
-    border: 7px solid #f1f1f1;
+    border: 5px solid #1e7d79;
     border-radius: 100%;
     text-align: center;
     color: #fff;
@@ -535,6 +541,12 @@ section h3.section-subheading {
 
 .timeline .timeline-heading h4.subheading {
     text-transform: none;
+}
+
+.timeline .timeline-heading h4.subheading span{
+    font-size: 14px;
+    font-weight: normal;
+    color: #777;
 }
 
 .timeline .timeline-body>p,
