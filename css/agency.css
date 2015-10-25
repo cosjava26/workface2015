@@ -216,8 +216,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #eb9631;
+    background-color: #eb9631;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -226,7 +226,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #fed136;
+    background-color: #eb9631;
 }
 
 .navbar-default .nav li a {
@@ -311,6 +311,10 @@ header .intro-text .intro-lead-in {
     line-height: 22px;
 }
 
+header .intro-text .intro-lead-in .time,header .intro-text .intro-lead-in .location{
+    display: inline-block;
+}
+
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif,"Microsoft JhengHei",\5FAE\8EDF\6B63\9ED1\9AD4,\65B0\7D30\660E\9AD4;
@@ -330,7 +334,7 @@ header .intro-text .intro-word p{
     header .intro-text .intro-lead-in {
         margin-bottom: 50px;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif,"Microsoft JhengHei",\5FAE\8EDF\6B63\9ED1\9AD4,\65B0\7D30\660E\9AD4;
-        font-size: 35px;
+        font-size: 30px;
         line-height: 40px;
     }
 
@@ -687,68 +691,68 @@ aside.clients img {
     margin: 50px auto;
 }
 
-section#contact {
+section#register {
     background-color: #222;
     background-image: url(../img/map-image.png);
     background-position: center;
     background-repeat: no-repeat;
 }
 
-section#contact .section-heading {
+section#register .section-heading {
     color: #fff;
 }
 
-section#contact .form-group {
+section#register .form-group {
     margin-bottom: 25px;
 }
 
-section#contact .form-group input,
-section#contact .form-group textarea {
+section#register .form-group input,
+section#register .form-group textarea {
     padding: 20px;
 }
 
-section#contact .form-group input.form-control {
+section#register .form-group input.form-control {
     height: auto;
 }
 
-section#contact .form-group textarea.form-control {
+section#register .form-group textarea.form-control {
     height: 236px;
 }
 
-section#contact .form-control:focus {
+section#register .form-control:focus {
     border-color: #fed136;
     box-shadow: none;
 }
 
-section#contact::-webkit-input-placeholder {
+section#register::-webkit-input-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact:-moz-placeholder {
+section#register:-moz-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact::-moz-placeholder {
+section#register::-moz-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact:-ms-input-placeholder {
+section#register:-ms-input-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact .text-danger {
+section#register .text-danger {
     color: #e74c3c;
 }
 
@@ -1076,4 +1080,16 @@ ul#tabs {
         margin-top: 50px;
     }
 
+}
+@media screen and (max-width: 767px) {
+    .navbar-default{
+        background-color: #146663;
+    }
+    .navbar-default .navbar-brand img.workface-logo{
+        width: 42%;
+        margin: 4px 0 0 10px;
+    }
+    header .intro-text .intro-lead-in .time{
+        margin-bottom: 15px;
+    }
 }
