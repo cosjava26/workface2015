@@ -6,7 +6,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif,Verdana,"Microsoft JhengHei",\5FAE\8EDF\6B63\9ED1\9AD4,\65B0\7D30\660E\9AD4;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif,"Microsoft JhengHei",\5FAE\8EDF\6B63\9ED1\9AD4,\65B0\7D30\660E\9AD4;
 }
 
 .text-muted {
@@ -963,6 +963,67 @@ body {
     max-height: 200px;
     height: 180px;
 }
+ul#tabs {
+    text-align: center;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin-bottom: 50px;
+}
+.nav-pills>li {
+    width: 260px;
+    border: 1px solid #EB9631;
+    font-size: 15px;
+}
+.nav-pills>li+li{
+    margin-left: 0px;
+}
+.nav-pills>li>a {
+    border-radius: 0px;
+    color: #EB9631;
+    background-color: #ffffff;
+    height: 61px;
+    line-height: 61px;
+    padding: 0;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus{
+    color: #ffffff;
+    background-color: #EB9631;
+}
+.tab-content>.tab-pane{
+    padding: 0 140px;
+}
+.table-schedule{
+    width: 100%;
+    table-layout: fixed;
+}
+.table-schedule tr{
+    border-bottom: 1px solid #146663;
+}
+.table-schedule th{
+    text-align: center;
+    font-size: 18px;
+}
+.table-schedule td{
+    font-size: 16px;
+    padding: 10px 0;
+}
+.table-schedule td img.sch_1{
+    width: 25%;
+}
+.table-schedule td img.sch_2{
+    width: 15%;
+}
+.table-schedule td span.subtitle{
+    font-size: 13px;
+    color: #777;
+}
+.table-mobile {
+    display: none;
+}
 @media screen and (max-width: 480px) {
     section h2.section-heading img.workshop-logo{
         width: 110px;
@@ -979,6 +1040,40 @@ body {
     .sharelist .sharelist-content{
         float: none;
         width: 100%;
+    }
+
+}
+@media screen and (max-width: 640px) {
+    #my-tab-content,ul#tabs{
+        display:none
+    }
+    .table-mobile {
+        display: table;
+    }
+    .table-mobile th {
+        padding: 15px 0;
+        font-weight: lighter;
+    }
+    .table-mobile th h3{
+        display: inline-block;
+        margin: 0;
+    }
+    .table-mobile>tbody>tr:nth-of-type(even) {
+        background-color: #F7F7F7;
+        border-bottom: none;
+    }
+    .table-mobile th span.subtitle{
+        font-size: 13px;
+        color: #777;
+    }
+    .table-mobile th img.sch_1{
+        width: 25%;
+    }
+    .table-mobile th img.sch_2{
+        width: 15%;
+    }
+    #table_day2{
+        margin-top: 50px;
     }
 
 }
